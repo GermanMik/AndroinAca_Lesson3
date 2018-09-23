@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">German Mikhaylov</string>
+    <string name="photo">Photo</string>
+    <string name="student_of_android_academy">Student of Android Academy</string>
+    <string name="want_to_develop_android_app">Want to develop an Android App</string>
+    <string name="_18_30_view_recyclerview_listview_mobile">Excellent communications skills. Adept at building strong working relationships with coworkers and management.
+Talented problem solver able to think “outside the box.”
+Proven background leading teams in stressful, deadline-oriented environments</string>
+    <string name="send_message">Send message</string>
+    <string name="enter_you_message">Enter you message...</string>
+    <string name="cube">Cube</string>
+    <string name="library">Library</string>
+</resources>

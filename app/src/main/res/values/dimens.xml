@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_end">16dp</dimen>
+    <dimen name="divider_2nd">2dp</dimen>
+    <dimen name="divider_1st">1dp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="icons_24">24dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+</resources>
