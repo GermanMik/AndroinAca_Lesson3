@@ -106,8 +106,8 @@
                     android:layout_gravity="end"
                     android:layout_marginEnd="@dimen/margin_16"
                     android:layout_weight="1"
-                    android:background="@color/white"
-                    android:onClick="message"
+                    android:background="@android:color/transparent"
+                    android:onClick="onSendMessage"
                     android:text="@string/send_message" />
 
             </android.support.design.widget.TextInputLayout>
