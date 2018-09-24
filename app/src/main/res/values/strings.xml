@@ -6,8 +6,8 @@
     <string name="_18_30_view_recyclerview_listview_mobile">Excellent communications skills. Adept at building strong working relationships with coworkers and management.
 Talented problem solver able to think “outside the box.”
 Proven background leading teams in stressful, deadline-oriented environments</string>
-    <string name="send_message">Send message</string>
-    <string name="enter_you_message">Enter you message...</string>
+    <string name="send_message">Open in browser</string>
+    <string name="enter_you_message">Enter www.android.com</string>
     <string name="cube">Cube</string>
     <string name="library">Library</string>
 </resources>

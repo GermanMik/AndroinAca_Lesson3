@@ -3,9 +3,12 @@ package ru.androidacademy.lecture3.germanmikhaylov;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.util.TypedValue;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,6 +16,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        javaTextView();
+    }
+
+    private void javaTextView() {
+        TextView disclaimer=new TextView(this);
+        disclaimer.setText("© 2018 German Mikhaylov");
+        disclaimer.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
+        disclaimer.setTextColor(ContextCompat.getColor(this, R.color.colorAccent));
     }
 
     public void onSendMessage(View view) {
@@ -25,4 +36,5 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     }
+
 }
