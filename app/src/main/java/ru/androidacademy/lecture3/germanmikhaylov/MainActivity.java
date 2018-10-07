@@ -20,11 +20,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         javaTextView();
-    }
+}
 
     private void javaTextView() {
         TextView disclaimer = new TextView(this);
-        disclaimer.setText("© 2018 German Mikhaylov");
+        disclaimer.setText(R.string.Copyright);
         disclaimer.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
         disclaimer.setTextColor(ContextCompat.getColor(this, R.color.colorPrimary));
 
